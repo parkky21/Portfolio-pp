@@ -1,5 +1,5 @@
 
-import { Project } from './types';
+import { Project, Blog } from './types';
 
 export const PROJECTS: Project[] = [
   {
@@ -41,6 +41,23 @@ export const PROJECTS: Project[] = [
     img: "https://picsum.photos/seed/pitcher/600/400",
     tags: ["Web", "Startup", "Platform"],
     date: "Dec 2024",
+  }
+];
+
+export const BLOGS: Blog[] = [
+  {
+    id: "magic-box-2",
+    title: "Inside the Magic Box #2: Causal Attention and Multi-head Attention",
+    desc: "A deep dive into the core mechanisms of transformer models, demystifying how Causal and Multi-head Attention enable powerful language understanding.",
+    url: "https://medium.com/@parkky/inside-the-magic-box-2-causal-attention-and-multi-head-attention-0a9366da1d50",
+    date: "Oct 4, 2023",
+  },
+  {
+    id: "magic-box-gpt",
+    title: "Inside the Magic Box of GPT",
+    desc: "An exploration of the fundamental architecture of Generative Pre-trained Transformers (GPT), breaking down how they generate human-like text.",
+    url: "https://medium.com/@parkky/inside-the-magic-box-of-gpt-bde3bae13752",
+    date: "Oct 2, 2023",
   }
 ];
 

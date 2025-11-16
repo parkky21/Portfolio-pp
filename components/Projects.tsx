@@ -5,11 +5,11 @@ import ProjectCard from './ProjectCard';
 
 const Projects: React.FC = () => {
   return (
-    <section id="projects" className="py-16 bg-[#f7f7f7]">
+    <section id="projects" className="py-16 bg-white dark:bg-[#111111]">
       <div className="container mx-auto px-4">
         <div className="mb-8">
-          <h2 className="text-2xl font-semibold text-gray-900">Projects</h2>
-          <p className="mt-2 text-gray-600 max-w-2xl">
+          <h2 className="text-2xl font-semibold text-gray-900 dark:text-gray-50">Projects</h2>
+          <p className="mt-2 text-gray-600 dark:text-gray-400 max-w-2xl">
             A curated selection of recent work. Hover to reveal details.
           </p>
         </div>
