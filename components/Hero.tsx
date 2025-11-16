@@ -3,7 +3,7 @@ import { SOCIAL_LINKS } from '../constants';
 import { GithubIcon, LinkedinIcon, PaperPlaneIcon, BoatIcon, NeuralNetworkIcon, BrainIcon, LightbulbIcon, CodeIcon, AtomIcon, GraphIcon, RocketIcon } from './icons';
 
 const FloatingElement: React.FC<{ children: React.ReactNode; className: string; style: React.CSSProperties }> = ({ children, className, style }) => (
-    <div className={`absolute text-gray-300 dark:text-gray-800 opacity-40 dark:opacity-20 ${className}`} style={style}>
+    <div className={`absolute text-gray-500 dark:text-gray-400 opacity-40 dark:opacity-40 ${className}`} style={style}>
         {children}
     </div>
 );
